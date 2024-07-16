@@ -1,0 +1,85 @@
+/* Home.css */
+
+/* Carousel styles */
+#default-carousel {
+    position: relative;
+    z-index: 900; /* Adjust the value as needed */
+  }
+  
+  #default-carousel .overflow-hidden {
+    position: relative;
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 8px; /* Adjust the default border-radius as needed */
+    overflow: hidden;
+  }
+  
+  #default-carousel .duration-700 {
+    transition: transform 0.7s ease-in-out;
+  }
+  
+  #default-carousel .absolute {
+    position: absolute;
+  }
+  
+  /* Navbar styles */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px; /* Adjust the default height as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the default box-shadow as needed */
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Adjust the default background color as needed */
+    z-index: 1000; /* Adjust the value as needed */
+  }
+  
+  nav .logo h1 {
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif; /* Adjust the default font-family as needed */
+  }
+  
+  nav form {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  nav input {
+    border: 1px solid #ccc; /* Adjust the default border color as needed */
+    border-radius: 30px; /* Adjust the default border-radius as needed */
+    padding: 8px 16px;
+    outline: none;
+  }
+  
+  nav button {
+    font-weight: bold;
+    color: #fff; /* Adjust the default text color as needed */
+    background-color: #4caf50; /* Adjust the default background color as needed */
+    border: none;
+    border-radius: 30px; /* Adjust the default border-radius as needed */
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  nav h3 {
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  /* Add more styles as needed */
+  
+  /* Additional styles for the rest of the Home component */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

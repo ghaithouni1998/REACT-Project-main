@@ -1,0 +1,32 @@
+/* styles.css */
+
+.backgroundImageStyle {
+    background-image: url("https://img.freepik.com/free-photo/wooden-gavel_93675-130695.jpg?w=1380&t=st=1705495012~exp=1705495612~hmac=228ce203d44430e1845978c45d7d81ab5d9e45fbaa24106127ee5d1778ed64a8");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Add more styles if needed */
+  }
+  
+  .glassStyle {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    /* Add padding or adjust as needed */
+  }
+  
+  .title {
+    height: 12vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-bottom: 50px;
+  }
+  
